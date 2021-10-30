@@ -1,0 +1,19 @@
+#include<simplecpp>
+using namespace std;
+
+void binary(long long int n)
+{
+     if (n == 0)
+       return  ;
+     else
+      binary(n/2) ;
+      cout<<n%2;
+
+     }
+
+main_program{
+
+long long int x;
+cin>>x;
+binary(x);
+}
