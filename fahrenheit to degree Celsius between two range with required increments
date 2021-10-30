@@ -1,0 +1,23 @@
+#include <simplecpp>
+
+main_program{
+  float f;
+  f=0;
+
+  int lower, upper,step;
+
+  cin>>lower>>upper>>step;
+
+
+
+  for (int i=(lower);i<= upper;i+=step){
+
+f=i;
+
+float cel = ((f * 5.0)-(5.0 * 32))/9;
+
+
+  cout <<  f <<"  "<< cel <<endl;
+
+}
+}
