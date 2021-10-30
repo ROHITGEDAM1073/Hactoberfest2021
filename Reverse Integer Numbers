@@ -1,0 +1,20 @@
+#include<simplecpp>
+
+main_program{
+
+    long long int n;
+    long long int reverse=0;
+    cin>>n;
+
+
+    while((n<=10^18)&&(n>=1)){
+      reverse = reverse*10 + n%10;
+      n/=10;
+      }
+
+      cout<<reverse;
+
+
+
+
+}
