@@ -1,0 +1,19 @@
+#include<simplecpp>
+
+void loop(int n , double angle)
+{
+  repeat(360){
+  right(360.0/360);
+  forward(1);
+ }
+ right(360.0/n);
+ if(angle<360)
+   loop(n,angle=angle+360/n);}
+
+main_program{
+turtleSim();
+int x;
+cin>>x;
+loop(x,0);
+wait(10);
+}
